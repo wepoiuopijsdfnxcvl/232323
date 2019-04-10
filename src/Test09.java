@@ -6,6 +6,7 @@ public class Test09 {
         }
     }
 
+    
     private static int partition(int[] arr, int left, int right) {
         int temp = arr[left];
         while (right > left) {
